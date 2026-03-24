@@ -94,8 +94,7 @@ class KeywordStore:
 # OLLAMA CALL
 # -------------------------------
 def ollama_llm(prompt):
-    #url = "http://localhost:11434/api/generate"
-    url = "http://host.docker.internal:11434/api/generate"
+    url = "http://host.docker.internal:11435/api/generate"
     payload = {
         "model": "llama3",
         "prompt": prompt,
