@@ -61,4 +61,12 @@ a. Detects "compare" queries
 b. Performs clause comparison automatically
 
 ## Installation & Setup
-Docker Setup:
+# Docker Setup:
+# 1. Build & Run
+     docker-compose up --build
+
+# 2. Access App
+     Streamlit UI: http://localhost:8501
+     Ollama API runs internally via Docker network
+
+     
